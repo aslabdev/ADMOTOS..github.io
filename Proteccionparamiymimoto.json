@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Candado Alarma Para Disco<br>Tipo Metal Pesado",
-    "precio": 12000,
+    "precio": 45000,
     "imagen1": "assets/img/portfolio/5_1.jpg",
     "imagen2": "assets/img/portfolio/5_2.jpg",
     "video": "assets/img/portfolio/5_3.mp4",
@@ -11,7 +11,7 @@
   },
   {
     "nombre": "Candado Alarma Para Disco",
-    "precio": 12000,
+    "precio": 45000,
     "imagen1": "assets/img/portfolio/9_1.jpg",
     "imagen2": "assets/img/portfolio/9_2.jpg",
     "video": "assets/img/portfolio/9_3.mp4",
@@ -21,7 +21,7 @@
   },
   {
     "nombre": "Guantes Reflectivos",
-    "precio": 9900,
+    "precio": 55000,
     "imagen1": "assets/img/portfolio/13_1.jpg",
     "imagen2": "assets/img/portfolio/13_2.jpg",
     "video": "assets/img/portfolio/13_3.mp4",
@@ -51,7 +51,7 @@
   },
   {
     "nombre": "Malla elástica/Pulpo",
-    "precio": 20000,
+    "precio": 12000,
     "imagen1": "assets/img/portfolio/12_1.png",
     "imagen2": "assets/img/portfolio/12_2.png",
     "video": "assets/img/portfolio/12_3.mp4",
@@ -61,5 +61,6 @@
               "azul": ["1"]
             }
   }
+
 
 ]
