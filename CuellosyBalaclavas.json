@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Balaclava Descapotable",
-    "precio": 12000,
+    "precio":17000,
     "imagen1": "assets/img/portfolio/8_1.png",
     "imagen2": "assets/img/portfolio/8_2.png",
     "video": "assets/img/portfolio/8_3.mp4",
@@ -11,7 +11,7 @@
   },
   {
     "nombre": "Cuellos / Pezcuesos <br> 📏 50cm",
-    "precio": 20000,
+    "precio": 12000,
     "imagen1": "assets/img/portfolio/10_1.jpg",
     "imagen2": "assets/img/portfolio/10_2.jpg",
     "video": "assets/img/portfolio/10_3.mp4",
@@ -19,4 +19,5 @@
               "azul-bebe-glow": 6
             }
   }
+
 ]
