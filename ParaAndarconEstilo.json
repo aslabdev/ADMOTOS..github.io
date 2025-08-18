@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Pato Acompañante",
+    "precio": 12000,
+    "imagen1": "assets/img/portfolio/3_1.jpg",
+    "imagen2": "assets/img/portfolio/3_2.jpg",
+    "video": "assets/img/portfolio/3_3.mp4",
+    "bolas": {
+              "amarillo": 4
+            }
+  },
+  {
+    "nombre": "Avión Luminoso",
+    "precio": 20000,
+    "imagen1": "assets/img/portfolio/4_1.png",
+    "imagen2": "assets/img/portfolio/4_2.png",
+    "video": "assets/img/portfolio/4_3.mp4",
+    "bolas": {
+              "amarillo": 1,
+              "rojo": 5
+            }
+  }
+]

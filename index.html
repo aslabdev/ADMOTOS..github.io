@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>A&DMOTOS</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/logo2.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+       
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styless123.css    " rel="stylesheet" />
+        <style>
+.producto-horizontal {
+  background-color: #fdfdfd;
+  border-radius: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+.producto-horizontal:hover {
+  transform: scale(1.01);
+}
+/* Círculos de color */
+.color-circle2 {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  line-height: 28px;
+  margin: 0 4px 4px 0;
+  font-weight: bold;
+}
+.morado {
+  background-color: #a64cf2;
+}
+.negro {
+  background-color: #222;
+}
+/* Tabla personalizada */
+.tabla-tallas td {
+  vertical-align: middle;
+}
+.tabla-tallas caption {
+  caption-side: top;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+.bolita {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.bg-petroleo {
+  background: linear-gradient(to bottom, #3BA6B7, #0F4C5C, #072E33) !important;
+  color: white;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(0, 0, 0); /* Fondo negro */
+  border-radius: 50%;
+  background-size: 100% 100%;
+}
+.img-ajustada {
+  height: 220px;          /* Puedes cambiar el tamaño si quieres */
+  object-fit: contain;    /* Evita que se deforme */
+  padding: 8px;
+  background-color: #fff; /* Color de fondo neutro */
+  border-radius: 12px;    /* Bordes redondeados opcionales */
+}
+.video-ajustado {
+  background-color: rgb(255, 255, 255); /* por si hay márgenes vacíos */
+}
+.color-stock {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  font-size: 13px;
+  box-shadow: 0 0 3px rgba(226, 6, 6, 0.2);
+  transition: transform 0.2s;
+  cursor: default;
+}
+.color-circle2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;         /* Aumenta el ancho */
+  height: 30px;        /* Aumenta el alto */
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;     /* Texto más grande */
+  margin: 6px 6px 6px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+.color-circle:hover {
+  transform: scale(1.1);
+}
+.morado         { background-color: #6A0DAD; }
+.negro          { background-color: #000000; }
+.magenta        { background-color: #FF00FF; }
+.blanco         { background-color: #f1f1f1; color: #222; border: 1px solid #ccc; }
+.naranja        { background-color: #FFA500; }
+.amarillo       { background-color: #FFD700; color: #333; }
+.plateado       { background-color: #C0C0C0; color: #333; }
+.verde-claro    { background-color: #90EE90; color: #222; }
+.azul-rey       { background-color: #0057B7; }
+.rojo           { background-color: #FF0000; }
+.azul-rey-glow  { background-color: #6699FF; box-shadow: 0 0 10px #6699FF; }
+.azul-bebe-glow { background-color: #89CFF0; box-shadow: 0 0 10px #89CFF0; color: #222; }
+    .color-dot {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        margin: 0 4px;
+        border: 1px solid #ccc;
+    }
+    .negro { background-color: #000; }
+    .blanco { background-color: #fff; }
+    .rojo { background-color: #e60000; }
+    .azul { background-color: #007bff; }
+    .portfolio-item {
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .portfolio-item:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+    .portfolio-caption {
+        background-color: #ffffff;
+        padding: 15px 10px;
+        text-align: center;
+        border-top: 1px solid #eaeaea;
+    }
+
+    .portfolio-caption-heading {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #222;
+    }
+
+    .portfolio-caption-subheading {
+        font-size: 0.9rem;
+        color: #6c757d;
+    }
+
+    .portfolio-hover-content i {
+        color: #ffffff;
+    }
+
+    .portfolio-link {
+        display: block;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .img-fluid {
+        border-radius: 15px;
+    }
+            </style>
+    </head>
+    <body id="Inicio">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-petroleo fixed-top" id="sideNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-white fw-bold">🛍️ Productos</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                <!-- Ítems individuales de productos -->
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ParalaLluvia">💧 Para la Lluvia</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ParaAndarconEstilo">😎 Para Andar con Estilo</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Proteccionparamiymimoto">🔒 Proteccion para mi  y mi moto</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#CuellosyBalaclavas">🛡️ Cuellos y Balaclavas</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand djs-scroll-trigger" href="#Inicio">
+                <span class="d-block d-lg-none">⚙️ A&D ⚙️</span>
+                <span class="d-none d-lg-block"><img class="img-fluid  mx-auto mb-2" src="assets/img/LogoAD.png" alt="..."style="max-width: 270px;" /></span>
+            </a>
+            <div class="social-icons">
+                <a class="social-icon" 
+                    href="#" 
+                    onclick="enviarWhatsapp()" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            <script>
+              function enviarWhatsapp() {
+                const numero = "573214194371";
+                const mensaje = "\uD83C\uDFCD️ A&D MOTOS \uD83D\uDD25 Quiero mi accesorio \u26A1 HOY!";
+
+                const url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensaje);
+                window.open(url, "_blank");
+              }
+            </script>
+                <a class="social-icon" href="http://instagram.com/admotos_oficial" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <!--<a class="social-icon" href="https://www.facebook.com/ADMOTOSOFICIAL1/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>-->
+            </div>
+            <br>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                  <div style="text-align: right;">
+                  <img src="assets/img/LogoAD.png" alt="Catálogo" style="max-width: 30%; height: auto;">
+                  </div>
+                    <h1 class="mb-0 ">
+                        - CATALOGO - <br>
+                    </h1>
+                    <H2>A&D <span class="text-primary">MOTOS</span></H2>
+                    <p class="lead mb-5">
+                        📍 <strong>Tienda Online - Bogotá</strong><br>
+                        📍 <strong>Domicilios en MOTO disponibles en la localidad de Suba (Bogotá)</strong>.<br><br>             
+                        📦 <strong>Stock actualizado</strong><br>
+                        🛵 <strong>Accesorios únicos y limitados</strong> para personalizar y mejorar tu moto.<br>
+                        🔧 Cada producto incluye <strong>descripción, compatibilidad, características, cantidad y precio</strong>.<br>
+                        ⚡ <strong>Entrega inmediata</strong> — sin esperas.<br>
+                        💳 Pagos por <strong>Nequi, Daviplata, Transferencia o Efectivo</strong>.<br>
+                        🚚 Envíos a todo el país con <strong>Interrapidísimo, Envia</strong> o la transportadora que prefieras.<br>  
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- 💧 Para la Lluvia 💧-->
+        <section class="page-section bg-light" id="ParalaLluvia">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">- 💧 Para la Lluvia 💧 -</h2>
+                    <!--<h3 class="section-subheading text-muted">Para envio gratis pedido minimo de 5 llaveros.</h3>-->
+                </div>
+                <div class="container my-4">
+                <div class="card flex-md-row shadow-sm border-0 rounded-4 p-3 align-items-center producto-horizontal">
+                    <!-- Carrusel -->
+                    <div id="carouselProduct1" class="carousel slide col-md-6 mb-3 mb-md-0" data-bs-ride="false">
+        <div class="carousel-inner rounded-4 overflow-hidden">
+        <div class="carousel-item active">
+          <img src="assets/img/portfolio/1_1.jpg" class="d-block w-100" alt="Vista 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/portfolio/1_2.png" class="d-block w-100" alt="Vista 2">
+        </div>
+        <!--<div class="carousel-item">
+          <video class="d-block w-100" controls muted>
+            <source src="assets/img/portfolio/1_3.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+          </video>
+        </div>-->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduct1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselProduct1" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+                    </div>
+                    <!-- Info del producto -->
+                    <div class="col-md-6 ps-md-4">
+      <h5 class="fw-bold mb-2">Impermeable de Bolsa</h5>
+      <p class="text-success fw-semibold">💰 Precio: $9.000</p>
+      <p class="mb-2">➕ Incluye: Chaqueta, Pantalón y Zapatones.</p>
+
+      <table class="table table-sm table-bordered align-middle mb-0 tabla-tallas">
+        <caption class="fw-bold text-center mb-2">🎨 Colores por Talla:</caption>
+        <tbody>
+          <tr>
+            <td>📏 Talla M:</td>
+            <td><span class="color-circle2 negro">5</span>
+            <span class="color-circle2 verde-claro">2</span>
+            <span class="color-circle2 plateado">1</span></td>
+          </tr>
+          <tr>
+            <td>📏 Talla L:</td>
+            <td>
+              <span class="color-circle2 negro">7</span>
+              <span class="color-circle2 rojo">4</span>
+            </td>
+          </tr>
+          <tr>
+            <td>📏 Talla XL:</td>
+            <td><span class="color-circle2 negro">4</span></td>
+          </tr>
+          <tr>
+            <td>📏 Talla XXL:</td>
+            <td>
+            <span class="color-circle2 negro">5</span>
+            <span class="color-circle2 azul">1</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+                    </div>
+                </div>
+                </div>
+                <div class="row" id="contenedor-ParalaLluvia"></div>
+            </div>
+        </section>
+            <hr class="m-0" />
+            <!-- 😎 Para Andar con Estilo 😎 -->
+            <section class="page-section bg-light" id="ParaAndarconEstilo">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">- 😎 Para Andar con Estilo 😎 -</h2>
+                </div>
+                <div class="row" id="contenedor-ParaAndarconEstilo"></div>
+            </div>
+            </section>
+            <hr class="m-0" />
+            <!-- 🔒 Proteccion para mi  y mi moto 🔒 -->
+            <section class="page-section bg-light" id="Proteccionparamiymimoto">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">- 🔒 Proteccion para mi  y mi moto 🔒 -</h2>
+                </div>
+                <div class="row" id="contenedor-Proteccionparamiymimoto"></div>
+            </div>
+            </section>
+            <hr class="m-0" />
+            <!-- 🛡️ Cuellos y Balaclavas 🛡️ -->
+            <section class="page-section bg-light" id="CuellosyBalaclavas">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">- 🛡️ Cuellos y Balaclavas 🛡️ -</h2>
+                </div>
+                <div class="row" id="contenedor-CuellosyBalaclavas"></div>
+            </div>
+            </section>
+            <hr class="m-0" />
+          </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

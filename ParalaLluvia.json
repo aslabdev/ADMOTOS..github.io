@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "Tula Porta Casco",
+    "precio": 25000,
+    "imagen1": "assets/img/portfolio/2_1.png",
+    "imagen2": "assets/img/portfolio/2_2.jpg",
+    "video": "assets/img/portfolio/2_3.mp4",
+    "bolas": {
+              "negro": 8
+            }
+  }
+]
